@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PAYE Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesZRA.css">
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <div class="logo">ZRA</div>
+        <div class="menu-icon">&#9776;</div>
+    </header>
+
+    
+    <section class="main-background">
+ 
+        <div class="calculator-card">
+
+            <h2>Paye Calculator</h2>
+
+            <div class="form-group">
+                <label>Basic Pay</label>
+                <input type="number" placeholder="Enter Salary" id="basic">
+            </div>
+
+            <div class="form-group">
+                <label>Allowances</label>
+                <input type="number" placeholder="Enter Allowances" id="allowances">
+            </div>
+
+            <div class="result-row">
+                <span>Gross/Taxable Pay</span>
+                <span id="gross">K 0</span>
+            </div>
+
+            <div class="result-row">
+                <span>Napsa 5%</span>
+                <span id="napsa">K 0</span>
+            </div>
+
+            <div class="result-row">
+                <span>National Health Insurance</span>
+                <span id="nhima">K 0</span>
+            </div>
+<hr>
+            <div class="result-row total">
+                <span>Total Contributions</span>
+                <span id="contributions">K 0</span>
+            </div>
+
+            <div class="result-row">
+                <span>Total Tax Deductions</span>
+                <span id="taxDeductions">K 0</span>
+            </div>
+
+            <div class="result-row total">
+                <span>Total Deductions</span>
+                <span id="totalDeductions">K 0</span>
+            </div>
+
+            <div class="result-row net">
+                <span>Net Salary</span>
+                <span id="net">K 0</span>
+            </div>
+
+            <div class="button-group">
+                <button class="calculate-btn" onclick="calculate()">Calculate</button>
+                <button class="clear-btn" onclick="clearFields()">Clear</button>
+            </div>
+
+            <h4 class="table-title">PAYE TAX COMPUTATION BANDS 2026</h4>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tax Bands</th>
+                        <th>Chargeable Income</th>
+                        <th>Tax Rate</th>
+                        <th>Tax Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>First K5,100.00 @</td>
+                        <td id="band1">0</td>
+                        <td>0%</td>
+                        <td id="due1">0</td>
+                    </tr>
+                    <tr>
+                        <td>Next K5,100.01 – K7,100.00</td>
+                        <td id="band2">0</td>
+                        <td>20%</td>
+                        <td id="due2">0</td>
+                    </tr>
+                    <tr>
+                        <td>Next K7,100.01 – K9,200.00</td>
+                        <td id="band3">0</td>
+                        <td>30%</td>
+                        <td id="due3">0</td>
+                    </tr>
+                    <tr>
+                        <td>K9,200.01 and Above</td>
+                        <td id="band4">0</td>
+                        <td>37%</td>
+                        <td id="due4">0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="note">
+                Note: Gross pay shows the tax band category used to calculate your tax.
+            </p>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <p>Plot No 1704 Kalambo Road / Villa Elizabetha, Lusaka</p>
+            <p>4111</p>
+            <p>advice@zra.org.zm</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>OTHER LINKS</h3>
+            <ul>
+                <li>National Pension Scheme Authority</li>
+                <li>Bank of Zambia (BOZ)</li>
+                <li>Ministry of Finance</li>
+                <li>Zambia Development Agency</li>
+                <li>World Trade Organisation</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
