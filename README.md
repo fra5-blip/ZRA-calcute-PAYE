@@ -1,5 +1,5 @@
 # ZRA-calcute-PAYE
-# PAYE Calculator (
+# PAYE Calculator 
 
 A simple web-based PAYE Calculator inspired by the Zambia Revenue Authority (ZRA) tax calculator.
 
@@ -20,7 +20,7 @@ Built using:
 
 ---
 
-## 📷 Project Preview
+## Project Preview
 
 The layout is inspired by the official ZRA calculator design.
 
