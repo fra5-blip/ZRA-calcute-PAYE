@@ -56,3 +56,58 @@ No automatic calculation happens during typing — results only show when the bu
 
 ## 📂 Project Structure
 
+```
+ZRA-calcute-PAYE/
+├── README.md              # Project documentation
+├── index.html             # Main HTML file with calculator interface
+├── script.js              # JavaScript logic for calculations
+└── stylesZRA.css          # CSS styling and responsive design
+```
+
+### File Descriptions
+
+- **index.html**: Contains the HTML structure for the PAYE calculator form, input fields, calculation button, and results display area.
+
+- **script.js**: Implements the calculation logic for:
+  - Gross Pay calculation (Basic Pay + Allowances)
+  - NAPSA deduction (5% of Gross Pay)
+  - NHIMA contribution calculation
+  - PAYE tax calculation based on 2026 tax bands
+  - Total deductions and net salary computation
+
+- **stylesZRA.css**: Provides the visual styling including:
+  - ZRA-inspired design and color scheme
+  - Responsive layout for mobile and desktop
+  - Form styling and button design
+  - Results table formatting
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download this repository
+2. Open `index.html` in your web browser
+3. Enter your Basic Pay and Allowances
+4. Click the **Calculate** button to see your salary breakdown
+5. Use the **Clear** button to reset all fields
+
+---
+
+## 📋 Tax Bands (2026)
+
+The calculator applies PAYE tax based on the current 2026 tax bands for Zambia. The system automatically calculates the appropriate tax based on your gross pay.
+
+---
+
+## 💡 Notes
+
+- NAPSA contribution is fixed at 5% of gross pay
+- NHIMA contribution is calculated separately based on current rates
+- All calculations are performed client-side in your browser
+- No data is stored or transmitted to any server
+
+---
+
+## 📝 License
+
+This project is open source and available for educational and personal use.
