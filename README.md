@@ -54,7 +54,7 @@ No automatic calculation happens during typing — results only show when the bu
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ZRA-calcute-PAYE/
@@ -83,7 +83,7 @@ ZRA-calcute-PAYE/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone or download this repository
 2. Open `index.html` in your web browser
@@ -93,13 +93,13 @@ ZRA-calcute-PAYE/
 
 ---
 
-## 📋 Tax Bands (2026)
+## Tax Bands (2026)
 
 The calculator applies PAYE tax based on the current 2026 tax bands for Zambia. The system automatically calculates the appropriate tax based on your gross pay.
 
 ---
 
-## 💡 Notes
+## Notes
 
 - NAPSA contribution is fixed at 5% of gross pay
 - NHIMA contribution is calculated separately based on current rates
@@ -108,6 +108,6 @@ The calculator applies PAYE tax based on the current 2026 tax bands for Zambia. 
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available for educational and personal use.
